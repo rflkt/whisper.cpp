@@ -564,3 +564,6 @@ tiny.en tiny base.en base small.en small medium.en medium large-v1 large-v2 larg
 .PHONY: tests
 tests:
 	bash ./tests/run-tests.sh $(word 2, $(MAKECMDGOALS))
+
+install-lib: libwhisper.so
+	cp libwhisper.so $$(PREFIX)/libwhisper.so
