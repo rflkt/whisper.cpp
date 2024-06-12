@@ -567,3 +567,4 @@ tests:
 
 install-lib: libwhisper.so
 	cp libwhisper.so ${PREFIX}/libwhisper.so
+	cp *.h *.hpp ${PREFIX}/include/
