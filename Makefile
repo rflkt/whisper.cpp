@@ -566,4 +566,4 @@ tests:
 	bash ./tests/run-tests.sh $(word 2, $(MAKECMDGOALS))
 
 install-lib: libwhisper.so
-	cp libwhisper.so $$(PREFIX)/libwhisper.so
+	cp libwhisper.so $(PREFIX)/libwhisper.so
